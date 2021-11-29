@@ -72,7 +72,7 @@
               
               var timeLeft = msToTime(newTimePeriod);
               
-              document.getElementById("clock").innerHTML = `<p>${timeLeft["hours"]} ${timeLeft["minutes"]}m ${timeLeft["minutes"]}m ${timeLeft["seconds"]}s</p>`
+              document.getElementById("clock").innerHTML = `<p>${timeLeft["hours"]}h ${timeLeft["minutes"]}m ${timeLeft["seconds"]}s</p>`
               
               var newHeight = Math.floor(newTimePeriod / origTimePeriod * 100) * 3;
               document.getElementById("progressBar").setAttribute("height", newHeight);
